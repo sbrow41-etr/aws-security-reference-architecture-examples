@@ -185,6 +185,8 @@ def get_enabled_regions() -> list:  # noqa: CCR001
         "eu-west-1",
         "ap-southeast-2",
         "eu-west-3",
+        "us-gov-east-1",
+        "us-gov-west-1",
     ]
     LOGGER.info({"Default_Available_Regions": default_available_regions})
 
