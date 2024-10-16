@@ -316,7 +316,7 @@ Resources:
             OrganizationalUnitIds:
               - !Ref pRootOrganizationalUnitId
           Regions:
-            - 'us-east-1'
+            - 'us-gov-east-1'
       TemplateURL: !Sub
         - https://${SRAStagingS3BucketName}.s3.${AWS::Region}.${AWS::URLSuffix}/${pSRASolutionName}/templates/sra-common-prerequisites-stackset-execution-role.yaml
         - SRAStagingS3BucketName: !Sub ${pSRAStagingS3BucketNamePrefix}-${AWS::AccountId}-${AWS::Region}
